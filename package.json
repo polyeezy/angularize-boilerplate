@@ -2,6 +2,10 @@
   "name": "angularize-boilerplate",
   "version": "1.0.0",
   "description": "An angular boilerplate using MaterializeCss",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/polyeezy/angularize-boilerplate.git"
+  }
   "main": "gulpfile.js",
   "scripts": {
     "test": "dev"
@@ -13,6 +17,7 @@
   "author": "Valerian Polizzi",
   "license": "ISC",
   "dependencies": {
+    "gulp-concat": "^2.6.0",
     "gulp-uglify": "^2.0.0"
   }
 }
