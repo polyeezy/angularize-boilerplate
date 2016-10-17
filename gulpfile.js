@@ -1,21 +1,23 @@
 var gulp = require('gulp'),
     concat   = require('gulp-concat'),
     uglify   = require('gulp-uglify');
+    connect = require('gulp-connect');
 
-//, 'app/controllers/*.js', 'app/app.js'
-
-gulp.task('js-concat', function () {
+gulp.task('concat', function () {
 
   gulp.src('app/directives/*.js')
-                    .pipe(concat('directives.js'))
-    	              .pipe(uglify())
-    	              .pipe(gulp.dest('app/'));
+      .pipe(concat('directives.concat.js'))
+      .pipe(uglify())
+    	.pipe(gulp.dest('app/'));
 
   gulp.src('app/controllers/*.js')
-                    .pipe(concat('controllers.concat.js'))
-                    .pipe(uglify())
-                    .pipe(gulp.dest('app/'));
+      .pipe(concat('controllers.concat.js'))
+      .pipe(uglify())
+      .pipe(gulp.dest('app/'));
 });
 
+gulp.task('serve', function() {
+  connect.server();
+});
 
-gulp.task('default', ['js-concat']);
+gulp.task('default', ['js-concat', 'serve']);
