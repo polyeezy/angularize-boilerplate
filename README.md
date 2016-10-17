@@ -1,9 +1,5 @@
 # angularize-boilerplate
 
-<snippet>
-  <content><![CDATA[
-# ${1:angularize-boilerplate}
-
 _Tired of installing / configuring a new website using Angular ?_
 **angularize-boilerplate** is made for you.
 
@@ -16,11 +12,12 @@ _Tired of installing / configuring a new website using Angular ?_
 **todo**
 
 ## Usage
+
 1. cd yourfolder
 2. npm install
 3. npm install gulp
+4. run ‘gulp serve’ to run (port 8080 by default)
 
-* run ‘gulp serve’ to run (port 8080 by default)
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -30,6 +27,3 @@ _Tired of installing / configuring a new website using Angular ?_
 
 ## Credits
   Valérian Polizzi
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
