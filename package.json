@@ -1,0 +1,18 @@
+{
+  "name": "angularize-boilerplate",
+  "version": "1.0.0",
+  "description": "An angular boilerplate using MaterializeCss",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "keywords": [
+    "angular",
+    "materialize"
+  ],
+  "author": "Valerian Polizzi",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-uglify": "^2.0.0"
+  }
+}

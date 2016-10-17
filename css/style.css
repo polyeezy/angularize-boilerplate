@@ -1,0 +1,9 @@
+.full_width
+{
+  min-width: 100% !important;
+}
+
+.full_height
+{
+  height: 100vh !important;
+}
