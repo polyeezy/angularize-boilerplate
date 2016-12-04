@@ -20,4 +20,4 @@ gulp.task('serve', function() {
   connect.server();
 });
 
-gulp.task('default', ['js-concat', 'serve']);
+gulp.task('default', ['concat', 'serve']);
