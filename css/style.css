@@ -1,9 +1,16 @@
-.full_width
-{
-  min-width: 100% !important;
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.full_height
+body
 {
-  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+}
+
+main, .container{
+    flex: auto !important;
 }
