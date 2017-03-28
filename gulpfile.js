@@ -10,6 +10,7 @@ gulp.task('concat-app', function() {
         'node_modules/angular/angular.js',
         'node_modules/angular-route/angular-route.js',
         'node_modules/angular-cooies.js',
+        'app/init.js',
         'app/directives/*.js',
         'app/controllers/*.js',
         'app/services/*.js',
